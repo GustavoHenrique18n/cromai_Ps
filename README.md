@@ -5,7 +5,7 @@
  - Python 
  - LocalStorage(dark e light mode)
  
- # Sweet alert popup cdn
+ ### Sweet alert popup cdn
  
  `<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>`
  
