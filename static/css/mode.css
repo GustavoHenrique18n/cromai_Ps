@@ -1,0 +1,35 @@
+/*animacao no botao de troca de cor e design dele*/
+#change{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 20px;
+    top: 20px;
+    border: 2px solid var(--white);
+    border-radius: 20px;
+  }
+  #change::before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 1px;
+    top: -2px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: var(--white);
+    transition: 0.4s;
+  }
+
+ #change.active::before{
+   left:19px;
+   top: -2px;
+   background: #0A0C10;
+   transition: ease 0.7s;
+ }
+ #change.active{
+   border: 2px solid var(--blue-light);
+ }
+ 
+ 
+ 

@@ -1,0 +1,155 @@
+/*adicionando variaveis para melhorar o desenvolvimento do css*/
+:root{
+  --blue:#14181F;
+  --blue-dark: #0A0C10;
+  --blue-light: #272A31;
+
+  --red: #EA1D22;
+  --red-dark: #B31317;
+  --red-light: #F02A2F;
+
+  --white: #EDF1F7;
+  --white-dark: #E5E9EF;
+  --white-light: #F4F7FB;
+
+  --gray-1: #797d85;
+  --gray-2: #A1A3A5;
+  --gray-3: #959698;
+  --color-background:linear-gradient(180deg, #272A31 0%, #0A0C10 100%);
+  --color-header : #959698;
+  --color-text : rgb(31, 30, 30)
+}
+/*--------------------------------css de toda aplicacao-------------------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  
+  html,
+  body {
+    height: 100vh;
+    background: var(--color-background);
+    overflow-y:hidden;
+  }
+  
+  header{
+    background: var(--color-header);
+    transition: ease 0.7s;
+    padding: 2rem 0 10rem;
+    text-align: center;
+  }
+
+  h3{
+    color: var(--blue-light);
+    font: italic 1.2rem "Times New Roman",serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-align: center;
+  }
+  p {
+    color:var(--color-text);
+    font: italic 2rem "Times New Roman",serif;
+    letter-spacing: 7px;
+    text-align: center;
+
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form h1 {
+    font-weight: bold;
+    letter-spacing: 7px;
+    margin: 14px 0;
+    color: var(--blue-light);
+    font: italic 23px "Times New Roman",serif;
+  }
+  
+  form {
+    width: min(90vw , 300px);
+    background-color: var(--white-dark);
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+    margin-top: -6rem;
+    
+  }
+  
+  form .input-block {
+    margin-bottom: 20px;
+  }
+  
+  form .input-block label {
+    font-size: 14px;
+    font: italic 1.2em "Times New Roman",serif;
+    color: var(--blue);
+  }
+  
+  form .input-block input {
+    width: 100%;
+    display: block;
+    margin-top: 8px;
+    padding: 7px;
+    font-size: 16px;
+    color: var(--blue);
+    border-radius: 2px;
+    border: 1px solid #ccddef;
+    outline-color: var(--blue);
+  }
+  
+  form .btn-calc{
+    display: block;
+    min-width: 120px;
+    border: none;
+    background-color: var(--blue-light);
+    color: white;
+    border-radius: 25px;
+    margin: auto;
+    font: italic 1.2em "Times New Roman",serif;
+    padding: 7px;
+    margin-bottom: 17px;
+    cursor: pointer;
+  }
+  .btn-calc:hover{
+    transition: ease 0.7s;
+    background-color: rgb(93, 89, 89);
+  }
+
+  form .btn-reset{
+    display: block;
+    min-width: 120px;
+    border: none;
+    background-color: var( --red-dark);
+    color: var(--white);
+    border-radius: 25px;
+    margin: auto;
+    font: italic 1.2em "Times New Roman",serif;
+    padding: 7px;
+    cursor: pointer;
+    
+  }
+  .btn-reset:hover{
+    transition: ease 0.7s;
+    background-color: var(--red-light);
+  }
+
+  button:focus{
+    outline: 0
+  }
+ 
+  .calculator_form--result{
+    display: none; 
+    margin: 1rem;
+    background-color: #d5f0ff;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+     
+}
+  
+ 

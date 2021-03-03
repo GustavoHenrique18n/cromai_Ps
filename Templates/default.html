@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitagoras</title>
+    <link rel="stylesheet" href="{{url_for('static', filename= 'css/default.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'css/mode.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'css/Animations.css')}}">
+</head>
+<body>
+    <header>
+        <label id="change"></label>
+        <p>c²= a² + b²</p>  
+    </header>
+   <section class="form-section">
+   <div class="form-wrapper">
+       <form method="POST">
+        <h1 class="">defina 2 lados</h1>
+           <div class="input-block">
+               <label for="adjacente">a=</label>
+               <input type="number" name="adjacente" id="adjacente">
+           </div>
+           <div class="input-block">
+            <label  for="oposto">b=</label>
+            <input type="number" name="oposto" id="oposto">
+           </div>
+           <div class="input-block">
+            <label  for="hipotenusa">c=</label>
+            <input type="number" name="hipotenusa" id="hipotenusa">
+           </div>
+           <button type="button" class="btn-calc" onclick="calc()">Calcular</button>
+           <button type="reset" class="btn-reset" onclick="window.location.reload()" >Apagar</button>
+       </form> 
+       <div id="resultarea" class="calculator_form--result" >
+     </div>    
+        </div>   
+   </section>  
+   <h3></h3>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="{{url_for('static', filename= 'scripts/defaultcalc.js')}}"></script>
+    <script src="{{url_for('static', filename= 'scripts/animation.js')}}"></script>
+</body>
+</html>
