@@ -18,6 +18,10 @@
  - Python 
  - LocalStorage(dark e light mode)
  
+ ## 💻 Projeto
+
+ Aplicação para calculo do Teorema de pitagoras de forma rapida e didatica
+ 
  ### Sweet alert popup cdn
  
  `<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>`
