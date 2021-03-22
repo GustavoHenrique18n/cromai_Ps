@@ -34,7 +34,7 @@
  
  ### Running the application 
  
- inicie o server no seu terminal para ser executado localmente
+ start the server
  
  `python routes.py`
  
