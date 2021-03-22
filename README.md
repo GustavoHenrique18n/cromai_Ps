@@ -11,28 +11,28 @@
  
  </div>
 
-# 👷 Ferramentas 👷
- - Javascript puro
+# 👷 Tools 👷
+ - Javascript 
  - CSS3
  - HTML5 
  - Python 
  - LocalStorage(dark e light mode)
  
- ## 💻 Projeto
+ ## 💻 Project
 
- Aplicação para calculo do Teorema de pitagoras de forma rapida e didatica
+ this Application help childrens to calculate the Pythagorean theorem quickly way
  
  ### Sweet alert popup cdn
  
  `<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>`
  
- # Instalação
+ # Installation 
  
- instale o modulo do python (flask) e seus pacotes
+ Install the Flask framework
  
  `pip install flask`
  
- ### Executando a aplicação
+ ### Running the application 
  
  inicie o server no seu terminal para ser executado localmente
  
