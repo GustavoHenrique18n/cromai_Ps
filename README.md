@@ -12,29 +12,29 @@
  </div>
 
 # 👷 Tools 👷
- - Javascript 
+ - Javascript puro
  - CSS3
  - HTML5 
  - Python 
  - LocalStorage(dark e light mode)
  
- ## 💻 Project
+ ## 💻 Projeto
 
- this Application help childrens to calculate the Pythagorean theorem quickly way
+ Aplicacao para calculo do teorema de pitagoras de forma rapida
  
- ### Sweet alert popup cdn
+ ### Sweet alert popup
  
  `<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>`
  
- # Installation 
+ # Instalação
  
- Install the Flask framework
+ Instale o Flask framework
  
  `pip install flask`
  
- ### Running the application 
+ ### Executando a aplicação
  
- start the server
+ inicie o server para executar localmente
  
  `python routes.py`
  
