@@ -22,7 +22,7 @@
 
  Aplicacao para calculo do teorema de pitagoras de forma rapida
  
- ### Sweet alert popup
+ ###  Lib Sweet alert2
  
  `<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>`
  
