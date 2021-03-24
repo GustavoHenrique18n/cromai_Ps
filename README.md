@@ -12,29 +12,29 @@
  </div>
 
 # 👷 Tools 👷
- - Javascript puro
+ - Javascrip
  - CSS3
  - HTML5 
  - Python 
  - LocalStorage(dark e light mode)
  
- ## 💻 Projeto
+ ## 💻 Project
 
- Aplicacao para calculo do teorema de pitagoras de forma rapida
+  teach childrean to learn Pythagorean theorem quickly way
  
  ###  Lib Sweet alert2
  
  `<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>`
  
- # Instalação
+ # Installation
  
- Instale o Flask framework
+ Intall Flask framework
  
  `pip install flask`
  
- ### Executando a aplicação
+ ### Running the application
  
- inicie o server para executar localmente
+ Start the server on your own machine 
  
  `python routes.py`
  
