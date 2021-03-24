@@ -28,7 +28,7 @@
  
  # Installation
  
- Intall Flask framework
+ Install Flask framework
  
  `pip install flask`
  
